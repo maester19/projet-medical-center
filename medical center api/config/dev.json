@@ -1,0 +1,32 @@
+{
+    "bind_address": "0.0.0.0",
+    "database": {
+      "user": "",
+      "password": "",
+      "connectionString": "mongodb://127.0.0.1:27017/mukhtabari"
+    },
+    "gateway": {
+      "url": "localhost",
+      "port": 8080,
+      "method": "http"
+    },
+    "jwt": {
+      "secret": "C@d@6@3",
+      "expire": "30d",
+      "cookie_expire": 30
+    },
+    "elasticsearch":{
+      "url": "127.0.0.1:9200"
+    },
+    "swagger":{
+      "url": "localhost:3000",
+      "method": "http"
+    },
+    "apm":{
+      "url": "http://localhost:8200"
+    },
+    "csvFiles": {
+      "url": "datas/Imports/"
+    }
+  }
+  
