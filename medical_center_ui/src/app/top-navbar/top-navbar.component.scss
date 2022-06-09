@@ -1,0 +1,10 @@
+$height_topbottom : 50px;
+
+nav{
+    position:fixed;
+    width: 90%;
+    height: $height_topbottom;
+    max-width: 1000px;
+    z-index: 2;
+    top:0px;
+}

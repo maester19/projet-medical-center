@@ -1,0 +1,14 @@
+$height_navbottom : 50px;
+
+.d-flex{
+    width:100%;
+}
+
+.navbar{
+    position:fixed;
+    width: 90%;
+    height: $height_navbottom;
+    max-width: 1000px;
+    z-index: 2;
+    bottom:0px;
+}
