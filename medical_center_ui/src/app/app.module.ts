@@ -16,6 +16,10 @@ import {MatIconModule} from '@angular/material/icon';
 import { MainComponent } from './main/main.component';
 import { TopNavbarComponent } from './top-navbar/top-navbar.component';
 import { HomeComponent } from './home/home.component';
+import { CallListElmtComponent } from './call-list-elmt/call-list-elmt.component';
+import { CallComponent } from './call/call.component';
+import { CallBtnComponent } from './call-btn/call-btn.component';
+import { CallListComponent } from './call-list/call-list.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { HomeComponent } from './home/home.component';
     BottomNavbarComponent,
     MainComponent,
     TopNavbarComponent,
-    HomeComponent
+    HomeComponent,
+    CallComponent,
+    CallBtnComponent,
+    CallListComponent,
+    CallListElmtComponent
   ],
   imports: [
     BrowserModule,
